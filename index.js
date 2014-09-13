@@ -15,7 +15,7 @@ var request = require('request');
 var client = new irc.Client('irc.freenode.net', 'tmk_door', {
   userName: 'nfc-door',
   realName: 'nfc-door',
-  channels: ['#crumpspace'],
+  channels: ['#ircchannel'],
 });
 
 /**
